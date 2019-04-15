@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginmvp.ShowActivity">
+    <TextView
+        android:id="@+id/show_zl"
+        android:text="用户资料"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/images"
+        android:src="@drawable/timg"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/show_zl"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <TextView
+        android:id="@+id/show_nc"
+        android:text="我是昵称"
+        android:layout_below="@id/images"
+        android:layout_marginLeft="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
